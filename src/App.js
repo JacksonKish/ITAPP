@@ -37,28 +37,3 @@ const styles = StyleSheet.create({
   Text_3:{color:"#000000", fontFamily:"lato-regular", fontSize:38, textAlign:"center", },
   Image_5:{height:"39%", width:"69%", resizeMode:"stretch", top:65, left:"15%", },
 });
-
-/*
-
-<form>
-          <div className="radio">
-            <label>
-              <input type="radio" value="Plassman Hall" checked={true} />
-              Plassman Hall
-      </label>
-          </div>
-          <div className="radio">
-            <label>
-              <input type="radio" value="S" />
-              Option 2
-      </label>
-          </div>
-          <div className="radio">
-            <label>
-              <input type="radio" value="option3" />
-              Option 3
-      </label>
-          </div>
-        </form>
-
-*/
