@@ -41,7 +41,8 @@ render() {
         <TouchableOpacity style={styles.TouchableOpacity_4}>
             <Text style={styles.Text_8}>Option</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.TouchableOpacity_5}>
+        <TouchableOpacity style={styles.TouchableOpacity_5}
+            onPress = {() => this.props.navigate("QuestionPage")}>
             <Text style={styles.Text_10}>Option</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.TouchableOpacity_6}>
