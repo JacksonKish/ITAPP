@@ -47,7 +47,7 @@ export default createAppContainer(AppNavigator);
 const styles = StyleSheet.create({
   MainPart:{flex:1, backgroundColor: "#fdb726"},
   Text_1:{color:"#000000", fontFamily:"lato-regular", fontSize:37, textAlign:"center", top:"10%", },
-  TouchableOpacity_2:{height:50, width:261, backgroundColor:"#8B4513", top:"64%", alignSelf:"center", borderWidth:1, borderColor:"#000000", },
+  TouchableOpacity_2:{height:60, width:261, backgroundColor:"#8B4513", top:"64%", alignSelf:"center", borderWidth:1, borderColor:"#000000", },
   Text_3:{color:"#000000", fontFamily:"lato-regular", fontSize:38, textAlign:"center", },
   Image_5:{height:"39%", width:"69%", resizeMode:"stretch", top:65, left:"15%", borderWidth: 1},
   Text_6:{color:"#000000", fontFamily: "lato-regular", fontSize: 10, top: 300, textAlign: "center"}
