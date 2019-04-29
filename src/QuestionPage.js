@@ -32,6 +32,15 @@ render() {
         Text_9:{color:"#FFFFFF", fontFamily:"Lato", fontSize:22, textAlign:"center", top:"25%", },
     }
 
+    const AppNavigator = createStackNavigator({
+      Question: {
+        Home: App,
+        Question: QuestionPage
+      }
+    });
+    
+    export default createAppContainer(AppNavigator);
+
     return    <View style={styles.MainPart}>
         <Text style={styles.Text_1}>What building is this?</Text>
         <Image source={[{"uri":"https://s3-us-west-2.amazonaws.com/asset.plexuss.com/college/overview_images/2716_st_bonaventure_university_01.jpg"}]} style={styles.Image_2}></Image>

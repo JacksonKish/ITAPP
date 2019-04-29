@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, TextInput, View, Text, TouchableOpacity, Image  } from 'react-native';
 import { Font } from 'expo';
+import { createStackNavigator, createAppContainer } from "react-navigation";
 
 export default class App extends React.Component {
   async componentDidMount() {
@@ -33,6 +34,15 @@ export default class App extends React.Component {
 
   }
 }
+
+const AppNavigator = createStackNavigator({
+  Home: {
+    Home: {screen: app},
+    Question: {screen: QuestionPage}
+  }
+});
+
+export default createAppContainer(AppNavigator);
 
 const styles = StyleSheet.create({
   MainPart:{flex:1, backgroundColor: "#fdb726"},
