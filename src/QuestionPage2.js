@@ -3,7 +3,7 @@ import { StyleSheet, TextInput, View, Text, TouchableOpacity, Image  } from 'rea
 import { Font } from 'expo';
 import { DrawerNavigator } from "react-navigation";
 
-export default class QuestionPage extends React.Component {
+export default class QuestionPage2 extends React.Component {
 
   async componentDidMount() {
     await Font.loadAsync({
